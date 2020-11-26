@@ -160,8 +160,8 @@ def account_1():
                          'Piscataway', 'San Jose', 'Amsterdam']  # 需要哪个机房写哪个，不可置空
         },  # 这是第一个预设，可以同时存在多个预设方案
     ]
-    func = VirmachSelenium(email='virmach@ruri.live',
-                           password='1995Xiaobai.123=',
+    func = VirmachSelenium(email='123',
+                           password='23',
                            configures=configures,
                            ones=True)
     q = multiprocessing.Queue()
